@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+form{
+    width:70%;
+    background-color :rgb(168, 9, 168); 
+    border: thick inset;
+    border-color: purple;
+    border-radius: 10px;
+    margin: 50px auto;
+    padding: 5%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+@media only screen and (min-width: 768px){
+form{
+    width:30%;
+    }
+}
+.input-group{
+    margin: 10px 0px 10px 0px;
+}
+.input-group label{
+    display: block;
+    text-align:left;
+    margin: 5px;
+}
+.input-group input{
+    height:30px;
+    width: 93%;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid lightpink;
+}
+.submit{
+    margin: 3px;
+    text-align: center;
+}
+.submit input{
+    color: purple;
+    border: thick solid rgb(230, 107, 230);
+}
+
+.forgot-password{
+    color:rgb(184, 173, 247);
+    text-align: right;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+.error-message{
+    width:100%;
+    color: #b85554;
+    background-color: lightpink;
+    border: 1px solid #b85554;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+
+
+}
+.success{
+    width:100%;
+    color: #07aee0;
+    background-color: #dff0d8;
+    border: 1px solid #25bdeb;
+    border-radius: 5px;
+    text-align: left;
+    padding: 10px;
+
+}
